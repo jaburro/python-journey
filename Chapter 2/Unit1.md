@@ -9,22 +9,22 @@ In the "Control Flow" chapter, we will explore how programs "make decisions" by 
 Before we dive deep into something called an if statement, let's do a demo using a coin flip simulation!
 
 Create a coin_flip.py program and type in the following:
-
+<code>
 import random
-
-num = random.randint(0, 1)   # RNGesus will give us a random number that is either 0 or 1
-
+</code>
+<code>num = random.randint(0, 1)   # RNGesus will give us a random number that is either 0 or 1</code>
+<code>
 if num > 0.5:
   print('Heads')
 else:
   print('Tails')
-
+</code>
 Note: We will learn more about random and .randint() later in the chapter.
 
 All you need to know is that this program simulates a coin toss:
 
-≈ 50% of the time, it's "Heads".
-≈ 50% of the time, it's "Tails".
+≈ 50% of the time, it's "Heads".</br>
+≈ 50% of the time, it's "Tails".</br>
 Run the program 5 times to get a taste of the if/else statement!
 
 How many times did it go Heads?

@@ -6,6 +6,6 @@ Start by creating a variable called grade and give it a value that's between 0 a
 
 Write a if/else statement for the following:
 
-If grade is greater than or equal to 55, then print "You passed."
-Else, print "You failed."
+If grade is greater than or equal to 55, then print "You passed."</br>
+Else, print "You failed."</br>
 After you run the code, change grade's value and run it again. Do this a few times to make sure it's working as intended.
